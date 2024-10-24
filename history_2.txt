@@ -1,0 +1,66 @@
+  620  git clone https://github.com/andsidor/Git_test
+  622  cd i
+  623  cd Git_test
+  625  git checkput FeatureBranch
+  626  git checkout -b FeatureBranch
+  628  git checkout -b FeatureBranch_1
+  630  touch a.txt
+  635  git commit -m "Commit Feature Branch"
+  637  git checkout -b FeatureBranch_2
+  639  git push
+  640  git remote set-url origin https://andsidor:TOKEN:github.com/andsidor/Git_test.git
+  643  git checkout -b main
+  648  history > history.txt
+  650  nano history.txt
+  653  git commit -m "Commit MAIN Branch"
+  655  clear
+  656  nano /.
+  657* cd `\ncd ~ 
+  659* cd 
+  661* ls -lah 
+  662* nano .zshrc\
+  663* nano .zshrc
+  665  git branch FeatureBranch
+  668  git branch FeatureBranch_1
+  670  touch b.txt
+  671  touch c.txt
+  673  git commit -m "Commit Feature  Branch 1"
+  675  touch d.txt
+  676  touch e.txt
+  678  git commit -m "Commit Feature  Branch 2"
+  680  touch f.txt
+  682  git commit -m "Commit Feature  Branch 3"
+  685  touch g.txt
+  690  touch g1.txt
+  691  touch g2.txt
+  693  git commit -m "Commit Feature  Branch 4"
+  695  touch g3.txt
+  697  git commit -m "Commit Feature  MAIN 5"
+  699  git log
+  702  touch g5.txt
+  703  touch g55.txt
+  704  touch g555.txt
+  706  git commit -m "Commit Feature  BRANCH_2  1"
+  708  touch g6.txt
+  709  touch g66.txt
+  710  touch g666.txt
+  711  git add .
+  712  git commit -m "Commit Feature  BRANCH_2  2"
+  714  cd status
+  718  git push origin main
+  720  git rebase main FeatureBranch
+  722  git status
+  724  git push main -force
+  725  git push main --force
+  726  git fetch origin
+  728  git checkout main
+  729  git checkout FeatureBranch
+  730  git rebase mai
+  733  git rebase --continue
+  735  git commit -m "Commit rebase"
+  741  git checkout FeatureBranch_2
+  742  git rebase main
+  746  zxc
+  747  git branch -a
+  749  git checkout FeatureBranch_1
+  750  ls
