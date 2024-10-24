@@ -1,0 +1,17 @@
+  620  git clone https://github.com/andsidor/Git_test
+  623  cd Git_test
+  625  git checkput FeatureBranch
+  626  git checkout -b FeatureBranch
+  628  git checkout -b FeatureBranch_1
+  630  touch a.txt
+  633  git add .
+  634  git status
+  635  git commit -m "Commit Feature Branch"
+  636  git log
+  637  git checkout -b FeatureBranch_2
+  639  git push
+  640  git remote set-url origin https://andsidor:TOKEN@github.com/andsidor/Git_test.git
+  643  git checkout -b main
+  645  git push origin main
+  646  git branch -a
+  647  ls
